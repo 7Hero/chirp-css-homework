@@ -278,20 +278,6 @@ ul {
   .cards {
     grid-template-columns: 1fr;
   }
-  .front_page {
-    flex-direction: column;
-    row-gap: 40px;
-    // div:nth-of-type(3) {
-    //   display: none;
-    // }
-  }
-  .hero-tablet {
-    display:block
-  }
-  .hero-desktop {
-    display: none;
-  }
-
 }
 
 @media (max-width:1180px) and (min-width: 667px){
@@ -303,7 +289,18 @@ ul {
     margin-left: 40px;
   }
 }
-
+@media (max-width: 875px) {
+  .front_page {
+    flex-direction: column;
+    row-gap: 40px;
+  }
+  .hero-tablet {
+    display:block
+  }
+  .hero-desktop {
+    display: none;
+  }
+}
 
 @media (max-width:666px) {
   .primary {
@@ -369,6 +366,5 @@ ul {
   .hero-tablet {
     display: none;
   }
-  .price-plan {
-  }
+
 }

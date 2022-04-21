@@ -297,7 +297,18 @@ ul li {
   .cards {
     grid-template-columns: 1fr;
   }
+}
+@media (max-width: 1180px) and (min-width: 667px) {
+  .container {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
 
+  .container-3 {
+    margin-left: 40px;
+  }
+}
+@media (max-width: 875px) {
   .front_page {
     flex-direction: column;
     row-gap: 40px;
@@ -309,16 +320,6 @@ ul li {
 
   .hero-desktop {
     display: none;
-  }
-}
-@media (max-width: 1180px) and (min-width: 667px) {
-  .container {
-    margin-left: 40px;
-    margin-right: 40px;
-  }
-
-  .container-3 {
-    margin-left: 40px;
   }
 }
 @media (max-width: 666px) {
@@ -394,4 +395,5 @@ ul li {
     display: none;
   }
 }
+
 /*# sourceMappingURL=styles.css.map */
